@@ -1,0 +1,53 @@
+Object-Oriented Programming (OOP) in PHP:
+
+
+Classes and Objects:
+Classes are blueprints for creating objects.
+Objects are instances of classes.
+
+
+Defining a Class:
+class ClassName {
+    // Properties and Methods
+}
+Creating Objects:
+$object = new ClassName();
+
+
+Accessing Properties and Methods:
+$object->property;
+$object->method();
+
+
+Constructor and Destructor:
+__construct(): Called when an object is created.
+__destruct(): Called when an object is destroyed.
+
+
+Inheritance:
+Inherit properties and methods from a parent class.
+Use extends keyword.
+
+
+Visibility:
+public: Accessible from anywhere.
+protected: Accessible within the class and its subclasses.
+private: Accessible only within the class.
+
+
+Static Properties and Methods:
+Belong to the class itself, not objects.
+Accessed using :: operator.
+
+
+Abstract Classes and Interfaces:
+Abstract classes cannot be instantiated.
+Interfaces define contracts for implementing classes.
+
+
+Traits:
+Group reusable methods.
+Use use keyword to include in a class.
+
+
+OOP promotes code organization, reusability, and maintainability in PHP.
